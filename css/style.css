@@ -6,7 +6,8 @@
 
 body {
 
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 a {
@@ -67,4 +68,51 @@ header .nav-logo span {
     header nav ul {
         display: none;
     }
+}
+
+main ul {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+main img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    display: grid;
+    place-content: right;
+    background: black;
+    color: aquamarine;
+    border-radius: 100%;
+    border-right: 2rem;
+
+
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 100%;
+    border-right: 2rem;
+}
+
+.about .container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 50px;
+
+}
+
+
+
+.about .container img {
+    border-radius: 15%;
+    width: 300px;
+    height: 400px;
+}
+
+.hero .container .content span {
+    color: blueviolet;
 }
