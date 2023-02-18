@@ -1,5 +1,61 @@
-header {
-    justify-content: space-around;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {}
+body {
+
+    font-family: 'Comic Neue', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+
+}
+
+header nav a {
+    color: black;
+}
+
+header nav a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 500;
+}
+
+header {
+    border-bottom: 1px solid black;
+    background: white;
+}
+
+header .nav-logo span {
+    color: darkorchid;
+}
