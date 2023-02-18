@@ -23,11 +23,14 @@ img {
 
 .container {
     max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
 header nav a {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 header nav a:hover {
@@ -52,10 +55,16 @@ header nav ul {
 }
 
 header {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(39, 39, 39);
     background: white;
 }
 
 header .nav-logo span {
     color: darkorchid;
+}
+
+@media screen and (max-width: 740px) {
+    header nav ul {
+        display: none;
+    }
 }
