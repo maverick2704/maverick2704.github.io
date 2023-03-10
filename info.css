@@ -1,0 +1,139 @@
+body{
+    background-color: #212B38;
+}
+header h1{
+    margin-left: 150px;
+}
+header div{
+    background-color: #161f2b;
+}
+body h1 .mohit{
+    /* color: #949398FF */
+    color: #F4DF4EFF;
+}
+body h1 .pranav{
+    color: #F4DF4EFF;
+}
+body h1{
+    margin-top: 20px;
+}
+body .container h1{
+    color: rgb(90, 59, 230);
+}
+body .container hr{
+    position: relative;
+    margin-top: 10px;
+    border: none;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    
+}
+body .container .top{
+    display: flex;
+}
+body main h3 {
+    margin-top: 100px;
+}
+body .container main h3 span{
+    color: rgb(84, 84, 236);
+}
+body .container main h3{
+    color: #949398FF;
+    margin-left: 150px;
+
+}
+body main p{
+    color: whitesmoke;
+    margin-left: 150px;
+}
+body main img{
+    width: 150px;
+}
+body main .pic1 .mohit{
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-right: 150px;
+    border-radius: 50%;
+}
+body main .pic1 .pranav{
+    margin-right: 15px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+
+}
+body main .about{
+    display: flex;
+}
+
+main .strengths {
+    text-align: right;
+    display: flex;
+    
+    
+}
+.strengths img{
+    margin-left: 400px;
+    margin-top: 75px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-right: 400px;
+    width: max-content;
+}
+
+main .strengths ul{
+    color: rgb(48, 197, 135);
+    list-style-type: none;
+    margin-top: 30px;
+    font-weight: 500;
+    margin-right: 150px;
+    
+}
+main .strengths h3{
+    margin-right: 150px;
+
+}
+main .weakness ul{
+    color: rgb(235, 80, 80);
+    list-style-type: none;
+    margin-top: 30px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+main .weakness h3{
+    margin-left: 150px;
+
+}
+main .weakness{
+    display: flex;
+}
+main .weakness .chain{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: max-content;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.goals{
+    display:flex;
+}
+main .goals div h3{
+    text-align: right;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+main .goals ul{
+    text-align: right;
+    margin-right: 150px;
+    color: antiquewhite;
+    list-style-type: none;
+}
+.goals img{
+    margin-left: 400px;
+    margin-top: 75px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-right: 400px;
+    width:200px;
+}
